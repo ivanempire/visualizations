@@ -39,11 +39,12 @@
 			.style("stroke", "#fff")
 			.style("stroke-width", "1px")
 			.on("mouseover", function(event, d) {
-				d3.select("#info").text(`${d.ancestors().map(d => d.data.name).reverse().join(" > ")}: ${d.value || ""}`);
+				const ancestors = d.ancestors().map(d => d.data.name).reverse().join(" > ");
+				d3.select("#info_2").text(`${ancestors}: ${d.value || ""}`);
 				d3.select(this).style("fill-opacity", 1);
 			})
 			.on("mouseout", function() {
-				d3.select("#info").text("");
+				d3.select("#info_2").text("Hover over or click on segments to explore."); // Reset text
 				d3.select(this).style("fill-opacity", 0.8);
 			})
 			.on("click", function(event, d) {
@@ -93,7 +94,7 @@
 
 	<svg id="sunburst" class="mb-4"></svg>
 
-	<div id="info" class="text-lg text-gray-600">
+	<div id="info_2" class="text-lg text-gray-600">
 		Hover over or click on segments to explore.
 	</div>
 
