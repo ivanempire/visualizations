@@ -1,0 +1,140 @@
+{
+  "name": "Parts of Speech",
+  "children": [
+    {
+      "name": "Nouns",
+      "children": [
+        {
+          "name": "energy",
+          "value": 180
+        },
+        {
+          "name": "power",
+          "value": 112
+        },
+        {
+          "name": "sources",
+          "value": 78
+        },
+        {
+          "name": "systems",
+          "value": 51
+        },
+        {
+          "name": "technology",
+          "value": 50
+        },
+        {
+          "name": "weapons",
+          "value": 37
+        },
+        {
+          "name": "ships",
+          "value": 34
+        },
+        {
+          "name": "technologies",
+          "value": 30
+        },
+        {
+          "name": "applications",
+          "value": 23
+        },
+        {
+          "name": "stargate",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "name": "Adjectives",
+      "children": [
+        {
+          "name": "advanced",
+          "value": 26
+        },
+        {
+          "name": "universe",
+          "value": 26
+        },
+        {
+          "name": "ancient",
+          "value": 24
+        },
+        {
+          "name": "destiny",
+          "value": 23
+        },
+        {
+          "name": "naquadah",
+          "value": 22
+        },
+        {
+          "name": "nuclear",
+          "value": 18
+        },
+        {
+          "name": "powerful",
+          "value": 16
+        },
+        {
+          "name": "different",
+          "value": 15
+        },
+        {
+          "name": "capable",
+          "value": 12
+        },
+        {
+          "name": "various",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "name": "Verbs",
+      "children": [
+        {
+          "name": "used",
+          "value": 30
+        },
+        {
+          "name": "advanced",
+          "value": 20
+        },
+        {
+          "name": "found",
+          "value": 14
+        },
+        {
+          "name": "stargate",
+          "value": 11
+        },
+        {
+          "name": "powered",
+          "value": 11
+        },
+        {
+          "name": "wraith",
+          "value": 11
+        },
+        {
+          "name": "including",
+          "value": 10
+        },
+        {
+          "name": "alternate",
+          "value": 10
+        },
+        {
+          "name": "powering",
+          "value": 9
+        },
+        {
+          "name": "developed",
+          "value": 9
+        }
+      ]
+    }
+  ]
+}

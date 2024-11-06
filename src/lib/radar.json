@@ -1,0 +1,134 @@
+{
+  "SG-1": [
+    {
+      "tech": "Naquadah",
+      "usage": {
+        "offensive": 19.83430280795322,
+        "defensive": 29.64214576681193,
+        "transportation": 20.206108509115413,
+        "communication": 30.317442916119436
+      }
+    },
+    {
+      "tech": "Naquadria",
+      "usage": {
+        "offensive": 17.27849379466676,
+        "defensive": 26.959548995574433,
+        "transportation": 25.738857518545053,
+        "communication": 30.02309969121375
+      }
+    },
+    {
+      "tech": "ZPM",
+      "usage": {
+        "offensive": 13.47708908644824,
+        "defensive": 37.425947147268964,
+        "transportation": 23.131212927712266,
+        "communication": 25.96575083857053
+      }
+    },
+    {
+      "tech": "Ancient Power Cores",
+      "usage": {
+        "offensive": 13.934774696826935,
+        "defensive": 21.172307431697845,
+        "transportation": 31.212541460990906,
+        "communication": 33.680376410484314
+      }
+    },
+    {
+      "tech": "Ori Power Sources",
+      "usage": {
+        "offensive": 10.726006648719508,
+        "defensive": 32.22319281766393,
+        "transportation": 16.877152528677954,
+        "communication": 40.1736480049386
+      }
+    },
+    {
+      "tech": "Asgard Power Sources",
+      "usage": {
+        "offensive": 14.487711437595868,
+        "defensive": 39.76268292534279,
+        "transportation": 17.7109770009975,
+        "communication": 28.038628636063844
+      }
+    }
+  ],
+  "Atlantis": [
+    {
+      "tech": "Naquadah",
+      "usage": {
+        "offensive": 14.340057970510445,
+        "defensive": 36.63929498372623,
+        "transportation": 24.68087737547659,
+        "communication": 24.339769670286728
+      }
+    },
+    {
+      "tech": "ZPM",
+      "usage": {
+        "offensive": 26.439996556192575,
+        "defensive": 32.57326097364092,
+        "transportation": 13.074100261071703,
+        "communication": 27.912642209094802
+      }
+    },
+    {
+      "tech": "Wraith Energy Sources",
+      "usage": {
+        "offensive": 26.480912803978057,
+        "defensive": 31.64433089053556,
+        "transportation": 19.889079633956065,
+        "communication": 21.985676671530314
+      }
+    },
+    {
+      "tech": "Alternate Universe Power Sources",
+      "usage": {
+        "offensive": 12.394273119494484,
+        "defensive": 33.697790958202376,
+        "transportation": 14.315120502922976,
+        "communication": 39.592815419380166
+      }
+    }
+  ],
+  "Universe": [
+    {
+      "tech": "Solar Energy",
+      "usage": {
+        "offensive": 22.991840968589067,
+        "defensive": 20.739938956143323,
+        "transportation": 46.167236309050395,
+        "communication": 10.100983766217217
+      }
+    },
+    {
+      "tech": "Ancient Power Cores",
+      "usage": {
+        "offensive": 18.765669409886126,
+        "defensive": 33.58132095253412,
+        "transportation": 15.697834597431179,
+        "communication": 31.955175040148575
+      }
+    },
+    {
+      "tech": "Blueberry Aliens' Power Sources",
+      "usage": {
+        "offensive": 22.65388004023194,
+        "defensive": 33.26793809926694,
+        "transportation": 20.40516226276272,
+        "communication": 23.6730195977384
+      }
+    },
+    {
+      "tech": "Alternate Reality Power Sources",
+      "usage": {
+        "offensive": 13.871669997585192,
+        "defensive": 30.21537101956565,
+        "transportation": 17.132663088565206,
+        "communication": 38.78029589428395
+      }
+    }
+  ]
+}

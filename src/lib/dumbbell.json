@@ -1,0 +1,153 @@
+{
+    "Stargate: SG-1": [
+        {
+            "lineBin": "1-10",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "11-20",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "21-30",
+            "minWordLength": 3,
+            "maxWordLength": 12
+        },
+        {
+            "lineBin": "31-40",
+            "minWordLength": 3,
+            "maxWordLength": 14
+        },
+        {
+            "lineBin": "41-50",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "51-60",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "61-70",
+            "minWordLength": 3,
+            "maxWordLength": 12
+        },
+        {
+            "lineBin": "71-80",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "81-90",
+            "minWordLength": 3,
+            "maxWordLength": 16
+        },
+        {
+            "lineBin": "91-100",
+            "minWordLength": 3,
+            "maxWordLength": 15
+        },
+        {
+            "lineBin": "101-110",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "111-120",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "111-126",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        }
+    ],
+    "Stargate: Atlantis": [
+        {
+            "lineBin": "1-10",
+            "minWordLength": 3,
+            "maxWordLength": 12
+        },
+        {
+            "lineBin": "11-20",
+            "minWordLength": 4,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "21-30",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "31-40",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "41-50",
+            "minWordLength": 3,
+            "maxWordLength": 12
+        },
+        {
+            "lineBin": "51-60",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "61-70",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "61-77",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        }
+    ],
+    "Stargate: Universe": [
+        {
+            "lineBin": "1-10",
+            "minWordLength": 3,
+            "maxWordLength": 12
+        },
+        {
+            "lineBin": "11-20",
+            "minWordLength": 2,
+            "maxWordLength": 14
+        },
+        {
+            "lineBin": "21-30",
+            "minWordLength": 3,
+            "maxWordLength": 12
+        },
+        {
+            "lineBin": "31-40",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "41-50",
+            "minWordLength": 3,
+            "maxWordLength": 12
+        },
+        {
+            "lineBin": "51-60",
+            "minWordLength": 3,
+            "maxWordLength": 13
+        },
+        {
+            "lineBin": "61-70",
+            "minWordLength": 3,
+            "maxWordLength": 15
+        },
+        {
+            "lineBin": "61-73",
+            "minWordLength": 3,
+            "maxWordLength": 12
+        }
+    ]
+}

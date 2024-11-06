@@ -1,0 +1,94 @@
+[debug] [2024-11-06T03:44:46.022Z] ----------------------------------------------------------------------
+[debug] [2024-11-06T03:44:46.024Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ivan\AppData\Local\pnpm\global\5\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-11-06T03:44:46.024Z] CLI Version:   13.14.2
+[debug] [2024-11-06T03:44:46.024Z] Platform:      win32
+[debug] [2024-11-06T03:44:46.024Z] Node Version:  v22.6.0
+[debug] [2024-11-06T03:44:46.025Z] Time:          Tue Nov 05 2024 19:44:46 GMT-0800 (Pacific Standard Time)
+[debug] [2024-11-06T03:44:46.025Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-06T03:44:46.027Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-11-06T03:44:46.068Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-06T03:44:46.068Z] > authorizing via signed-in user (ohyoureivan@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Ivan\WebstormProjects\visualizations
+
+[debug] [2024-11-06T03:44:46.262Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-11-06T03:44:46.263Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-11-06T03:44:57.840Z] > refreshing access token with scopes: []
+[debug] [2024-11-06T03:44:57.841Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-11-06T03:44:57.841Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-06T03:44:57.960Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-11-06T03:44:57.960Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-06T03:44:57.968Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-11-06T03:44:57.968Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"visualizations-101","name":"visualizations-101"}
+[debug] [2024-11-06T03:44:58.487Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-11-06T03:44:58.487Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.5033733854165482722"}
+[debug] [2024-11-06T03:44:58.487Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5033733854165482722 [none]
+[debug] [2024-11-06T03:44:58.904Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5033733854165482722 200
+[debug] [2024-11-06T03:44:58.904Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5033733854165482722 {"name":"operations/cp.5033733854165482722"}
+[debug] [2024-11-06T03:44:59.409Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-11-06T03:44:59.410Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5033733854165482722 [none]
+[debug] [2024-11-06T03:44:59.756Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5033733854165482722 200
+[debug] [2024-11-06T03:44:59.756Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5033733854165482722 {"name":"operations/cp.5033733854165482722"}
+[debug] [2024-11-06T03:45:00.766Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-11-06T03:45:00.766Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5033733854165482722 [none]
+[debug] [2024-11-06T03:45:01.132Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5033733854165482722 200
+[debug] [2024-11-06T03:45:01.132Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5033733854165482722 {"name":"operations/cp.5033733854165482722","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2024-11-06T03:45:03.133Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-11-06T03:45:03.134Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5033733854165482722 [none]
+[debug] [2024-11-06T03:45:03.530Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5033733854165482722 200
+[debug] [2024-11-06T03:45:03.531Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5033733854165482722 {"name":"operations/cp.5033733854165482722","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"549607700507","projectId":"visualizations-101","lifecycleState":"ACTIVE","name":"visualizations-101","createTime":"2024-11-06T03:42:49.516084Z"}}
+[debug] [2024-11-06T03:45:03.532Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/visualizations-101:addFirebase [none]
+[debug] [2024-11-06T03:45:05.943Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/visualizations-101:addFirebase 200
+[debug] [2024-11-06T03:45:05.944Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/visualizations-101:addFirebase {"name":"operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh"}
+[debug] [2024-11-06T03:45:05.944Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh [none]
+[debug] [2024-11-06T03:45:09.137Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh 200
+[debug] [2024-11-06T03:45:09.137Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh {"name":"operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh"}
+[debug] [2024-11-06T03:45:09.642Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-11-06T03:45:09.643Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh [none]
+[debug] [2024-11-06T03:45:10.013Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh 200
+[debug] [2024-11-06T03:45:10.013Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh {"name":"operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh"}
+[debug] [2024-11-06T03:45:11.024Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-11-06T03:45:11.024Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh [none]
+[debug] [2024-11-06T03:45:11.606Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh 200
+[debug] [2024-11-06T03:45:11.606Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh {"name":"operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh"}
+[debug] [2024-11-06T03:45:13.612Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-11-06T03:45:13.612Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh [none]
+[debug] [2024-11-06T03:45:13.914Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh 200
+[debug] [2024-11-06T03:45:13.914Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh {"name":"operations/workflows/N2Q3NzUxNmYtNmRmNS00NmIxLTg0ZWQtN2VlOTg4NzkxNmNh","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"visualizations-101","projectNumber":"549607700507","displayName":"visualizations-101","name":"projects/visualizations-101","resources":{"hostingSite":"visualizations-101"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: visualizations-101
+[info]    - Project Name: visualizations-101
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/visualizations-101/overview
+[info] i  Using project visualizations-101 (visualizations-101) 
+[info] 
+=== Hosting Setup
+[debug] [2024-11-06T03:45:13.923Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/visualizations-101 [none]
+[debug] [2024-11-06T03:45:14.315Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/visualizations-101 200
+[debug] [2024-11-06T03:45:14.315Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/visualizations-101 {"projectId":"visualizations-101","projectNumber":"549607700507","displayName":"visualizations-101","name":"projects/visualizations-101","resources":{"hostingSite":"visualizations-101"},"state":"ACTIVE","etag":"1_9b65f208-c906-4a7c-a2c3-8bb3d83f9e96"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
